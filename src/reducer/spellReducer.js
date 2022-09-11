@@ -1,5 +1,8 @@
 import { ActionTypes } from "../constants/action-types";
 
+// reducer takes initial state and action
+// reducer has the power to update the state
+
 let fav = JSON.parse(localStorage.getItem("favorite"));
 // takes initial state and actions
 const initialState = {
@@ -8,6 +11,8 @@ const initialState = {
   favouriteSpell: JSON.parse(localStorage.getItem("favorite")) || [],
 };
 
+// - first parameter initial state
+// - second parameter action
 export const spellReducer = (state = initialState, action) => {
   switch (action.type) {
     case ActionTypes.GET_SPELL:

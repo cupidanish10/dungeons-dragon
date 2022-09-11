@@ -1,5 +1,9 @@
 import { ActionTypes } from "../constants/action-types";
 
+// a) contains all the actions
+// 	b) set actions that we created types in "constants"
+// 	c) actions always returns plain js object
+
 export const getSpell = (spells) => {
   return {
     type: ActionTypes.GET_SPELL,
