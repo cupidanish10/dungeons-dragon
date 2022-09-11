@@ -14,7 +14,9 @@ const SpellComponent = () => {
         <div class="card custom-card glass-ui p-2 mb-3">
           <div className="content">
             {" "}
-            <Link to={"/spell/" + item.index}>{item.name}</Link>{" "}
+            <Link to={"/dungeons-dragon/spell/" + item.index}>
+              {item.name}
+            </Link>{" "}
           </div>
         </div>
       </div>
