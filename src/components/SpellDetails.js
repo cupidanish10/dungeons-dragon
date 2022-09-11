@@ -26,10 +26,21 @@ const SpellDetails = () => {
   }, []);
 
   return (
-    <div>
-      <h1> Product Details </h1>
-      <p> {spellDetail?.desc && spellDetail.desc[0]} </p>
-      <button onClick={handleAdd}> Add to Favourite </button>
+    <div className="main bg-gradient">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <button
+              onClick={handleAdd}
+              className="btn btn-secondary btn-sm mb-2"
+            >
+              {" "}
+              Add to Favourite{" "}
+            </button>
+            <p> {spellDetail?.desc && spellDetail.desc[0]} </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

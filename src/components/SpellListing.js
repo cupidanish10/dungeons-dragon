@@ -24,10 +24,26 @@ const SpellListing = () => {
   }, []);
 
   return (
-    <div className="ui grid container">
-      <h1> Spell Listing </h1>
-      <SpellComponent />
-    </div>
+    <>
+      <div className="subbanner spell-list-bg">
+        <div className="hero-content">
+          <h2> Spell List: Official Dungeons & Dragons Content!</h2>
+          <p>
+            {" "}
+            Connect with your friends around the world and play D&D with some of
+            the best Dungeon Masters anywhere!{" "}
+          </p>
+        </div>
+      </div>
+
+      <div className="main bg-gradient">
+        <div className="container">
+          <div className="row">
+            <SpellComponent />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

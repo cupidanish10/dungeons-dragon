@@ -5,7 +5,7 @@ let fav = JSON.parse(localStorage.getItem("favorite"));
 const initialState = {
   spells: [],
   spell: {},
-  favouriteSpell: [],
+  favouriteSpell: JSON.parse(localStorage.getItem("favorite")) || [],
 };
 
 export const spellReducer = (state = initialState, action) => {

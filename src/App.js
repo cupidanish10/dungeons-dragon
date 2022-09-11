@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Home from "./components/Home";
 import SpellListing from "./components/SpellListing";
 import SpellDetails from "./components/SpellDetails";
 import SpellComponent from "./components/SpellComponent";
@@ -11,6 +12,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/" element={<Home />} exact>
+            {" "}
+          </Route>
           <Route path="/spell" element={<SpellListing />} exact>
             {" "}
           </Route>
