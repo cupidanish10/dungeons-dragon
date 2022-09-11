@@ -16,7 +16,10 @@ function Home() {
             roleplaying game.{" "}
           </p>
 
-          <Link to="/spell" class="btn btn-danger btn-lg btn-brand">
+          <Link
+            to="/dungeons-dragon/spell"
+            class="btn btn-danger btn-lg btn-brand"
+          >
             {" "}
             Learn Spell{" "}
           </Link>
