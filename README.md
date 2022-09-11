@@ -25,6 +25,14 @@ You may also see any lint errors in the console.
 * Redux
 * React Router
 * Axios
+* Bootstrap for UI 
+
+### Features
+
+* We can find all the available spells from fantasy game Dungeons & Dragons
+* View details of the spell
+* Can favourite the spell
+* Favourites are added in LocalStorage. 
 
 ### Pages
 
