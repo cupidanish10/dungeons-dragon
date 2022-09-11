@@ -12,19 +12,27 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} exact>
+          <Route path="/dungeons-dragon/" element={<Home />} exact>
             {" "}
           </Route>
-          <Route path="/spell" element={<SpellListing />} exact>
+          <Route path="/dungeons-dragon/spell" element={<SpellListing />} exact>
             {" "}
           </Route>
-          <Route path="/spell/:index" element={<SpellDetails />} exact>
+          <Route
+            path="/dungeons-dragon/spell/:index"
+            element={<SpellDetails />}
+            exact
+          >
             {" "}
           </Route>
-          <Route path="/favorite" element={<FavoriteList />} exact>
+          <Route
+            path="/dungeons-dragon/favorite"
+            element={<FavoriteList />}
+            exact
+          >
             {" "}
           </Route>
-          <Route path="/" element={<SpellComponent />} exact>
+          <Route path="/spell-card" element={<SpellComponent />} exact>
             {" "}
           </Route>
         </Routes>
