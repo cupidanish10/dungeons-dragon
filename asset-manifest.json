@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dungeons-dragon/static/css/main.cd55e958.css",
+    "main.css": "/dungeons-dragon/static/css/main.55c269b3.css",
     "main.js": "/dungeons-dragon/static/js/main.c95892a9.js",
     "static/media/fav-list-bg.avif": "/dungeons-dragon/static/media/fav-list-bg.4c530a34c49a625fd250.avif",
     "static/media/hero.avif": "/dungeons-dragon/static/media/hero.b14a7b92325f8a773b0a.avif",
     "static/media/list-bg.avif": "/dungeons-dragon/static/media/list-bg.c7b097f4336ace9223b3.avif",
     "static/media/dnd-logo.avif": "/dungeons-dragon/static/media/dnd-logo.aa110ee8743a1eb098a3.avif",
     "index.html": "/dungeons-dragon/index.html",
-    "main.cd55e958.css.map": "/dungeons-dragon/static/css/main.cd55e958.css.map",
+    "main.55c269b3.css.map": "/dungeons-dragon/static/css/main.55c269b3.css.map",
     "main.c95892a9.js.map": "/dungeons-dragon/static/js/main.c95892a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd55e958.css",
+    "static/css/main.55c269b3.css",
     "static/js/main.c95892a9.js"
   ]
 }
