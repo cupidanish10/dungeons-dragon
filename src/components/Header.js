@@ -28,26 +28,17 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="https://cupidanish10.github.io/dungeons-dragon/"
-                >
+                <Link className="nav-link" to="/dungeons-dragon/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="https://cupidanish10.github.io/dungeons-dragon/spell"
-                >
+                <Link className="nav-link" to="/dungeons-dragon/spell">
                   Spell
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="https://cupidanish10.github.io/dungeons-dragon/favorite"
-                >
+                <Link className="nav-link" to="/dungeons-dragon/favorite">
                   Favourites
                 </Link>
               </li>
